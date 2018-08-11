@@ -8,7 +8,7 @@ Installation
 
 gRPC Python is available for Linux, macOS, and Windows.
 
-From PyPI
+>From PyPI
 ~~~~~~~~~
 
 If you are installing locally...
@@ -37,7 +37,7 @@ n.b. On Windows and on Mac OS X one *must* have a recent release of :code:`pip`
 to retrieve the proper wheel from PyPI. Be sure to upgrade to the latest
 version!
 
-From Source
+>From Source
 ~~~~~~~~~~~
 
 Building from source requires that you have the Python headers (usually a

@@ -8,7 +8,7 @@ grpc/_plugin_wrapping.py,sha256=7CGLBEsiBvjgkoXWXLoqVWx9fobXReqoy8nKMTwv6oY,3425
 grpc/_server.py,sha256=0ziAtf123HfhdePjpd61qe-W8kw5pwTgqs6SsCmpl0c,31365
 grpc/_utilities.py,sha256=0hSJwx6wS2N-Ur1qQ0ROcDGqbWf142MMPnCyuFyN3_s,5117
 grpc/_cython/__init__.py,sha256=w3kqSAyaZgP-W0890xR4L4WeBPGrtsQCQJe0FUFR0K0,577
-grpc/_cython/cygrpc.so,sha256=YlREulY9MqkmZiPTKOOfNclyqUmWpmE4e5kLZFmTlzA,4090480
+grpc/_cython/cygrpc.pyd,sha256=k9bDOSzd1POTm1uq5tvBc2AhuWojosPew9zMdxreDJQ,2881024
 grpc/_cython/_credentials/roots.pem,sha256=WgTeHMtYkCcLHLPJ1tUjW7Kze0FHs9skfJumMURZZmE,271610
 grpc/_cython/_cygrpc/__init__.py,sha256=w3kqSAyaZgP-W0890xR4L4WeBPGrtsQCQJe0FUFR0K0,577
 grpc/beta/__init__.py,sha256=w3kqSAyaZgP-W0890xR4L4WeBPGrtsQCQJe0FUFR0K0,577
@@ -39,11 +39,11 @@ grpc/framework/interfaces/base/utilities.py,sha256=goqmJRHRD7rXJUKin-HTi5yqfupHk
 grpc/framework/interfaces/face/__init__.py,sha256=w3kqSAyaZgP-W0890xR4L4WeBPGrtsQCQJe0FUFR0K0,577
 grpc/framework/interfaces/face/face.py,sha256=W7WwAncfbDqmB2gXkQ3Ji46y6uWlO6kzPndp5at1Ns8,39704
 grpc/framework/interfaces/face/utilities.py,sha256=yeg9qnK3Z22WEnOxpBSy-jt4kwGdXpBaltBdXa6cfRU,6711
-grpcio-1.14.1.dist-info/DESCRIPTION.rst,sha256=T0ClJuD6jX15wFF6N_yMOTfTtmOebinyQmMbQ0eWIbw,2666
-grpcio-1.14.1.dist-info/METADATA,sha256=2q_RqPB89nFIufJq7tM1FKQJnZpjN6CZihAvfW6ShrM,3443
+grpcio-1.14.1.dist-info/DESCRIPTION.rst,sha256=Ve1V5jbwBp0rz5JI1flM1JOtI47h0HWCtd-p57EFd3k,2668
+grpcio-1.14.1.dist-info/METADATA,sha256=K80cTWk7SdR8BSjyI-mp4x6cOYMuYQyTF6PVjVSafNY,3610
 grpcio-1.14.1.dist-info/RECORD,,
-grpcio-1.14.1.dist-info/WHEEL,sha256=6p-eqUqwgxEvUKi8ZQclJKVTLkcyeVYV7HrNtgZ1I1s,111
-grpcio-1.14.1.dist-info/metadata.json,sha256=hc2s1j-0ZdmEEDHGcFK-zveRuVkmo85oUrx9CB4c3NU,911
+grpcio-1.14.1.dist-info/WHEEL,sha256=Jmq6HlU3-gun8Kdi3LY3f3pFZ0JqJ7Bn8GbGn_XfX0M,106
+grpcio-1.14.1.dist-info/metadata.json,sha256=RzDTBphCKbuvNAVQeX7OT53OFG-8VG2-CXv3BYtaAGA,950
 grpcio-1.14.1.dist-info/top_level.txt,sha256=eEd2Jq_aVQFp38bWW8Pfwjz_5iibqeOFT-2zXlPAq_8,5
 grpcio-1.14.1.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
 grpc/framework/foundation/stream.pyc,,
