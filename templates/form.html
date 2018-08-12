@@ -1,26 +1,20 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Submit a form</title>
-   <link rel="stylesheet" type="text/css" href="/static/style.css">
-  </head>
-  <body>
-    <div id="container">
-      <div class="pagetitle">
-        <h1>Submit a form</h1>
-      </div>
-      <div id="main">
-        <form method="post" action="{{ url_for('submitted_form') }}">
-          <label for="name">Name:</label>
-          <input type="text" name="name"><br />
-          <label for="email">Email address:</label>
-          <input type="email" name="email"><br />
-          <label for="site_url">Website URL:</label>
-          <input type="url" name="site_url"><br />
-          <label for="comments">Comments:</label>
-          <textarea name="comments"></textarea><br />
-          <input type="submit">
-        </form>
-      </div>
-    </div>
-  </body>
+<head>
+  <title>SeeFood - Upload Image</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <form method="post" enctype="multipart/form-data">
+    <ul>
+      <li>
+        <label for="file">Image</label>
+        <input type="file" name="file">
+      </li>
+      <li>
+        <input type="submit" name="Upload Image">
+      </li>
+    </ul>
+  </form>
+</body>
 </html>
