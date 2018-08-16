@@ -21,6 +21,8 @@
   <body>
     <div id="map"></div>
     <script>
+      var params = (new URL(document.location)).searchParams;
+      var q = params.get("q");
       function initMap() {
 
         if (navigator.geolocation) { //GEO LOCATION, FINDS USERS LOCATION
@@ -44,7 +46,7 @@
             service.textSearch({
               location: myLocation, //Uses geolocation to find the following
               radius: 10000,
-              query: ['restaurants+{{ query }}']
+              query: ['food+'+q]
             }, callback);
           })
         };

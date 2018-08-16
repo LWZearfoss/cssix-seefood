@@ -1,20 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>SeeFood - Upload Image</title>
-  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='key.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='main.js') }}"></script>
 </head>
 <body>
-  <form method="post" enctype="multipart/form-data">
-    <ul>
-      <li>
-        <label for="file">Image</label>
-        <input type="file" name="file">
-      </li>
-      <li>
-        <input type="submit" name="Upload Image">
-      </li>
-    </ul>
+  <form id="fileform" action="">
+    <input type="file" name="fileField"><br />
+    <input type="submit" name="submit" value="Submit">
   </form>
 </body>
 </html>
