@@ -42,7 +42,7 @@ function sendFileToCloudVision (content) {
         content: content
       },
       features: [{
-        type: "WEB_DETECTION",
+        type: 'WEB_DETECTION',
         maxResults: 200
       }]
     }]
@@ -59,5 +59,5 @@ function sendFileToCloudVision (content) {
 
 function push(data) {
   data: JSON.stringify(data),
-      window.location = "/map"+"?q="+data.responses[0].webDetection.webEntities[0].description.split(' ').join('+').toLowerCase();
+      window.location = '/map'+'?q='+data.responses[0].webDetection.webEntities[0].description.split(' ').join('+').toLowerCase();
 }
