@@ -41,7 +41,7 @@
        success: function(data) {
           console.log(data)
           var images = '';
-          for(var i = 0; i < data.matches.length; i++) {
+          for(var i = 0; i < 4; i++) {
             images += '<a href="https://www.yummly.com/recipe/' + data.matches[i].id + '" target="_blank"><img src="' + data.matches[i].smallImageUrls[0] + '"/></a>';
           }
           document.getElementById('recipes').innerHTML = images;
@@ -80,7 +80,7 @@
 
       function callback(results, status) {
         if (status === google.maps.places.PlacesServiceStatus.OK) {
-          for (var i = 0; i < 4; i++) {
+          for (var i = 0; i < results.length; i++) {
             createMarker(results[i]);
           }
         }
