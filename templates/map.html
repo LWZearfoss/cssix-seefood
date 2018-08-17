@@ -39,7 +39,6 @@
        url: 'https://api.yummly.com/v1/api/recipes?q='+q+'&requirePictures=true&_app_id=0829ddab&_app_key=444106fc217ae8db6fe67e0581a78741',
        dataType: 'JSONP',
        success: function(data) {
-          console.log(data)
           var images = '';
           for(var i = 0; i < 4; i++) {
             images += '<a href="https://www.yummly.com/recipe/' + data.matches[i].id + '" target="_blank"><img src="' + data.matches[i].smallImageUrls[0] + '"/></a>';
